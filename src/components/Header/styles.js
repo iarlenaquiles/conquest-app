@@ -3,13 +3,12 @@ import { FontAwesome } from "@expo/vector-icons";
 
 export const Container = styled.View`
   position: absolute;
-  height: 14px;
-  left: 34px;
-  top: 29px;
-  right: 0;
+
+  height: 20px;
+  left: 30px;
+  top: 30px;
   flex-direction: row;
   align-items: center;
-  z-index: 1;
 `;
 
 export const Text = styled.Text`
