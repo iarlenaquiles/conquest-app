@@ -16,8 +16,8 @@ export const Text = styled.Text`
 
 export const Body = styled.View`
   width: 100%;
-  height: 55%;
-  top: 7.5%;
+  height: 300px;
+  top: 35px;
   left: 0;
   flex-direction: column;
   border: 1px rgba(0, 0, 0, 0.03);
@@ -27,8 +27,8 @@ export const Body = styled.View`
 export const StarredsView = styled.View`
   flex: 1;
   width: 100%;
-  height: 80%;
-  margin-left: 2.5%;
+  height: 80px;
+  margin-left: 20px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
@@ -40,9 +40,9 @@ export const ContainerBody = styled.View`
 `;
 
 export const List = styled.View`
-  width: 95%;
-  height: 80%;
-  margin-left: 2.5%;
+  width: 100%;
+  height: 80px;
+  margin-left: 20px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
@@ -50,23 +50,23 @@ export const List = styled.View`
 
 export const ContainerBottom = styled.View`
   width: 100%;
-  height: 50%;
-  top: 1%;
+  height: 100px;
+  top: 10px;
 `;
 
 export const Separate = styled.View`
-  width: 90%;
-  left: 5%;
+  width: 100%;
+  left: 5px;
   height: 1%;
-  top: 0.5%;
+  top: 1px;
   border: 2px rgba(0, 0, 0, 0.03);
   border-radius: 24px;
 `;
 
 export const Title = styled.Text`
   font-size: 14px;
-  left: 6%;
-  margin-top: 2%;
+  left: 20px;
+  margin-top: 5px;
   z-index: 10;
 `;
 
@@ -89,10 +89,10 @@ export const ButtonText = styled.Text`
 
 export const SwiperBackground = styled.View`
   width: 100%;
-  height: 90%;
+  height: 100%;
   border-radius: 20px;
   background-color: #fff;
-  opacity: 0.85;
+  opacity: 0.9;
   align-items: center;
   align-self: center;
 `;
@@ -102,9 +102,9 @@ export const SwiperClose = styled.View`
   z-index: 2;
   top: 25%;
   right: 25%;
-  width: 40%;
-  height: 25%;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   background-color: #f23870;
   justify-content: center;
   align-items: center;
@@ -115,9 +115,9 @@ export const SwiperCheck = styled.View`
   z-index: 2;
   top: 25%;
   right: 25%;
-  width: 40%;
-  height: 25%;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   background-color: #1fb893;
   justify-content: center;
   align-items: center;

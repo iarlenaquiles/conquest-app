@@ -3,22 +3,22 @@ import { FontAwesome, Entypo } from "@expo/vector-icons";
 
 export const Header = styled.View`
   width: 100%;
-  height: 7%;
-  top: 4%;
+  height: 40px;
+  top: 20px;
   flex-direction: column;
 `;
 
 export const Avatar = styled.Image`
   width: 50px;
   height: 50px;
-  left: 6%;
+  left: 25px;
   border-radius: 25px;
   border: 2px #5affd7;
 `;
 
 export const AvatarName = styled.View`
   width: 250px;
-  margin-left: 22.5%;
+  margin-left: 93px;
   bottom: 37px;
   flex-direction: row;
 `;
@@ -32,7 +32,7 @@ export const Infos = styled.View`
   width: 100px;
   height: 15px;
   top: -30px;
-  margin-left: 22.5%;
+  margin-left: 93px;
   flex-direction: row;
 `;
 

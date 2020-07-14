@@ -1,10 +1,10 @@
 import styled from "styled-components/native";
 
 export const Swiping = styled.View`
-  width: 20%;
-  height: 30%;
+  width: 80px;
+  height: 150px;
   right: 0;
-  top: 1%;
+  top: 3px;
   flex-direction: column;
   background-color: transparent;
   align-items: center;
@@ -14,7 +14,7 @@ export const Swiping = styled.View`
 `;
 
 export const Accept = styled.TouchableOpacity`
-  top: 3%;
+  top: 3px;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -27,7 +27,7 @@ export const Accept = styled.TouchableOpacity`
 `;
 
 export const Decline = styled.TouchableOpacity`
-  top: 35%;
+  top: 55px;
   width: 40px;
   height: 40px;
   border-radius: 20px;
