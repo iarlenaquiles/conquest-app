@@ -15,9 +15,9 @@ export const Swiping = styled.View`
 
 export const Accept = styled.TouchableOpacity`
   top: 3%;
-  width: 55%;
-  height: 25%;
-  border-radius: 150px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   background: #1fb893;
   position: absolute;
   align-items: center;
@@ -28,9 +28,9 @@ export const Accept = styled.TouchableOpacity`
 
 export const Decline = styled.TouchableOpacity`
   top: 35%;
-  width: 55%;
-  height: 25%;
-  border-radius: 150px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   background: #f23870;
   position: absolute;
   z-index: 2;
