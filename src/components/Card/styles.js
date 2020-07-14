@@ -18,19 +18,6 @@ export const Text = styled.Text`
   margin: auto;
 `;
 
-export const Stared = styled.View`
-  border: 1px;
-  margin-top: 2%;
-  margin-left: 1%;
-  border: 2px #3a2a4f;
-  padding: 2px;
-  border-radius: 4px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #3a2a4f;
-`;
-
 export const Body = styled.View`
   width: 100%;
   height: 55%;
@@ -41,9 +28,9 @@ export const Body = styled.View`
   background-color: rgba(129, 64, 216, 0.03);
 `;
 
-export const HighlightsView = styled.View`
+export const StarredsView = styled.View`
   flex: 1;
-  width: 95%;
+  width: 100%;
   height: 80%;
   margin-left: 2.5%;
   flex-wrap: wrap;
@@ -65,7 +52,7 @@ export const List = styled.View`
   justify-content: flex-start;
 `;
 
-export const BottomView = styled.View`
+export const ContainerBottom = styled.View`
   width: 100%;
   height: 50%;
   top: 1%;
@@ -87,7 +74,7 @@ export const Title = styled.Text`
   z-index: 10;
 `;
 
-export const BottomButtonView = styled.View`
+export const ContainerFooter = styled.View`
   width: 100px;
   height: 30px;
   bottom: 0;
@@ -120,8 +107,8 @@ export const SwiperClose = styled.View`
   top: 25%;
   right: 25%;
   width: 40%;
-  height: 20px;
-  border-radius: 10px;
+  height: 25%;
+  border-radius: 90px;
   background-color: #f23870;
   justify-content: center;
   align-items: center;
@@ -133,8 +120,8 @@ export const SwiperCheck = styled.View`
   top: 25%;
   right: 25%;
   width: 40%;
-  height: 20px;
-  border-radius: 10px;
+  height: 25%;
+  border-radius: 90px;
   background-color: #1fb893;
   justify-content: center;
   align-items: center;
