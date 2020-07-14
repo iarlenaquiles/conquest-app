@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./styles";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
+import Tabbar from "../../components/Tabbar";
 
 import { FontAwesome } from "@expo/vector-icons";
 
@@ -20,6 +21,8 @@ const Home = () => {
       <S.SearchButton>
         <FontAwesome name="search" size={25} />
       </S.SearchButton>
+
+      <Tabbar />
     </S.Container>
   );
 };
