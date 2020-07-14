@@ -1,13 +1,9 @@
 import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
-  flex: 0.91;
-  border-radius: 24px;
+  flex: 1;
+  border-radius: 30px;
   background-color: #fff;
-`;
-
-export const CompanyName = styled.Text`
-  font-size: 14px;
 `;
 
 export const Text = styled.Text`
